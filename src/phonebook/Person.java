@@ -39,4 +39,12 @@ public class Person {
   public void setFirstName(String firstName) {
     this.firstName.set(firstName);
   }
+  
+  public String getEmail() {
+    return email.get();
+  }
+  
+  public void serEmail(String email) {
+    this.email.set(email);
+  }
 }
